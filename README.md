@@ -25,10 +25,8 @@
   
   _disclaimer: only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes using flask framework) and various html files were not implemented by myself)._
 
-### What I learned
-> how a web application is structured using HTML, CSS, and a web server (Flask).
-
-> how a web server framework (i.e. Flask) handles requests and sends responses.
+### What I learned from Pset6
+> basic concepts of HTML, CSS, and a web server.
 
 ## Pset7: Finance
 > Solved Finance in July, 2018.
@@ -57,7 +55,22 @@
   - `addcash.html`: an HTML form to add more cash to the user's balance account.
   
 > learned HTML syntax, jinja2 templating language, how to create an HTML form.
+
+  _disclaimer: only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes using flask framework) and various html files were not implemented by myself)._
+
+### What I learned from Pset7
+> how a web application is structured using HTML, CSS, and a web server (Flask).
+
+> the MVC (Model-View-Controller) paradigm. Particularly the model and controller.
+
+> how a web server framework (i.e. Flask) handles requests and sends responses.
+
+> how to manipulate data and databases using SQL (Structured Query Language).
       
 ## Pset8: Mashup
 > Solved Mashup in July, 2018.
 
+> 
+
+### What I learned from Pset7
+> how a web appl
