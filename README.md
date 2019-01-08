@@ -21,20 +21,36 @@
   
 - `index.html`: an HTML form via which a user can submit
 - `matrix.html`: a page generating a visualization of the matrix returned by distances function (each cell contains a cost).
-  > learned how to use Jinja2 templating language.
+  > learned how to create a html form and use Jinja2 templating language.
   
-_Only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes) and various html files were not implemented by myself)._
+_Only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes using flask framework) and various html files were not implemented by myself)._
 
 ## Pset7: Finance
 > Solved Finance in July, 2018.
 
-- caesar: a program that encrypts messages using Caesar’s cipher.
+> A web app managing portfolios of stocks. Allows user to check real stocks' actual prices and portfolios' values, and let user simulate purchases and sales of stocks by querying IEX for stocks' prices. 
 
-- vigenère: a program that encrypts messages using Vigenère’s cipher.
-
-- crack: a program that cracks passwords encryped by C's DES-based crypt function (hash function).
-    
+- `application.py`: a program which serves the web appliction. A server using a flask framework, defines the following methods for routes.
+  - `register`: allows user to register for an account by receiving a POST request and inserting the new user into the SQLite3 database.
+  - `index`: 
+  - `quote`: allows user to look up a stock's current price by receiving 
+  - `buy`:
+  - `sell`:
+  -`history`:
+  -`add_cash`: a personal touch to the web appliction to enable the user to add more cash.
+  
 > learned 
+
+- `register.html`: an HTML for user to submit a form of input fields for id, password, and confirmation to register route.
+- `index.html`: 
+- `quote.html`:
+- `quoted.html`:
+- `buy.html`:
+- `sell.html`:
+- `history.html`:
+- `addcash.html`:
+  
+> learned
       
 ## Pset8: Mashup
 > Solved Mashup in July, 2018.
