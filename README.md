@@ -12,10 +12,7 @@
 
 > A web application that depicts the costs of transforming one string into another by measuring the edit distance between two strings.
 
-| / | /score |
-:-------------------------:|:-------------------------:
-<img width="400" alt="sim1" src="https://user-images.githubusercontent.com/29671309/50814313-90df8f00-135c-11e9-9bdb-57f244a42077.PNG"> | <img width="405" alt="sim2" src="https://user-images.githubusercontent.com/29671309/50814319-96d57000-135c-11e9-8cc7-2bcc2ab55332.PNG">
-| _prompts user for two strings to compare_ | _displays matrix and log of edit distance between two strings._
+<img src="screenshots/similarities/sim1.PNG" height="350"> <img src="screenshots/similarities/sim2.PNG" height="352">
 
 - `helpers.py`: function distances takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
   > learned how to calculate __edit distance__ between two strings using __dynamic programming__.
@@ -36,7 +33,7 @@
 
 | /register | / |
 :-------------------------:|:-------------------------:
-<img width="446" alt="register" src="https://user-images.githubusercontent.com/29671309/50821571-dc049c80-1372-11e9-92de-8e32aac2f470.PNG"> | <img width="445" alt="index" src="https://user-images.githubusercontent.com/29671309/50821579-e030ba00-1372-11e9-8c6e-08a859eb69af.PNG">
+<img src="screenshots/finance/register.PNG" width="350"> | <img src="screenshots/finance/index.PNG" width="350">
 | _prompts user for inputs for registration_  | _displays a table of user's portfolio and current cash balance_ |
 
 | /quote (GET request) | /quote (POST request) |
