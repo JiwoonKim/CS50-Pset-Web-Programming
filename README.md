@@ -14,7 +14,7 @@
 
 <img width="400" alt="sim1" src="https://user-images.githubusercontent.com/29671309/50814313-90df8f00-135c-11e9-9bdb-57f244a42077.PNG">  <img width="405" alt="sim2" src="https://user-images.githubusercontent.com/29671309/50814319-96d57000-135c-11e9-8cc7-2bcc2ab55332.PNG">
 
-> _web app: prompts user for two strings and then, displays matrix and log of edit distance between two strings._
+> _prompts user for two strings and then, displays matrix and log of edit distance between two strings._
 
 - `helpers.py`: function distances takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
   > learned how to calculate edit distance between two strings using __dynamic programming__.
@@ -31,19 +31,20 @@ _Only the function for calculating the edit distance and displaying the matrix o
 > A web app managing portfolios of stocks. Allows user to check real stocks' actual prices and portfolios' values, and let user simulate purchases and sales of stocks by querying IEX for stocks' prices. 
 
 - `application.py`: a program which serves the web appliction. A server using a flask framework, defines the following methods for routes.
-  - `register`: allows user to register for an account by receiving a POST request and inserting the new user into the SQLite3 database.
-  - `index`: 
-  - `quote`: allows user to look up a stock's current price by receiving 
-  - `buy`:
-  - `sell`:
-  -`history`:
+  - `register`: enables user to register for an account by receiving a POST request from register.html and inserting the new user into the SQLite3 database.
+  - `index`: displays a table summarizing the user's portfolio of which stocks the user owns and the user's current cash balance.
+  - `quote`: enables user to look up a stock's current price by receiving both GET and POST requests. (GET request for displaying quote.html where user can input a stock's symbol and send a HTML form via POST request which then, renders quoted.html which displays the stock's current price.)
+  - `buy`: enables user to simulate a purchase of stocks by receiving a POST request from buy.html and recording the purchase in the database.
+  - `sell`: enables user to simulate a sale of stocks by receiving a POST request from buy.html and recording the sale in the database.
+  
+  -`history`: displays a table summarizing all of the user's transactions made.
   -`add_cash`: a personal touch to the web appliction to enable the user to add more cash.
   
 > learned 
 
-- `register.html`: an HTML for user to submit a form of input fields for id, password, and confirmation to register route.
-- `index.html`: 
-- `quote.html`:
+- `register.html`: an HTML to prompt user to submit a form for registration (inputs of id, password, and confirmation).
+- `index.html`: an HTML to display a table summarizing the user's portfolio of which stocks the user owns and the user's current balance account.
+- `quote.html`: an HTML to promt=
 - `quoted.html`:
 - `buy.html`:
 - `sell.html`:
