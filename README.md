@@ -1,10 +1,10 @@
 # CS50 Psets: Web Programming
 
-> record of programs implemented for CS50x from 2016 to 2018.
+> Solutions implemented for `CS50x` from 2016 to 2018.
 
-> Problem Sets (Psets): Pset 6 to Pset 8.
+> Problem Sets (Psets): `Pset 6 to Pset 8`.
 
-> 
+> For previous Psets: [Solutions for Pset 1 to Pset 5](https://github.com/JiwoonKim/CS50-Pset-General-Programming)
 
 
 ## Pset6: Similarities
@@ -12,14 +12,15 @@
 
 > a web app that depicts the costs of transforming one string into another by measuring the edit distance between two strings.
 
-- helpers.py: distances function takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
-  > 
+- `helpers.py`: distances function takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
+  > learned how to calculate edit distance between two strings using __dynamic programming__.
   
-- templates/index.html: 
-  > learned 
-  
-- templates/matrix.html: page generates a visualization of the matrix returned by distances function (each cell contains a cost).
+- `index.html`: an HTML form via which a user can submit
+- `matrix.html`: a page generating a visualization of the matrix returned by distances function (each cell contains a cost).
   > learned how to use Jinja2 templating language.
+  
+_disclaime: application.py, score, error.html, layout.html, log.html, score.html, and style.css was all made by CS50. _
+               _Only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes) and various html files were not implemented by myself)._
 
 ## Pset7: Finance
 > Solved Finance in July, 2018.
