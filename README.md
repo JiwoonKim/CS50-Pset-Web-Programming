@@ -12,6 +12,9 @@
 
 > A web application that depicts the costs of transforming one string into another by measuring the edit distance between two strings.
 
+<img width="192" alt="similarities" src="https://user-images.githubusercontent.com/29671309/50812937-0a28b300-1358-11e9-87b1-985bba367724.PNG"> <img width="199" alt="sim2-1" src="https://user-images.githubusercontent.com/29671309/50813290-43155780-1359-11e9-9210-eb16e6508a10.PNG"> <img width="201" alt="sim2-2" src="https://user-images.githubusercontent.com/29671309/50813297-4577b180-1359-11e9-9c44-806a065116cc.PNG">
+
+
 - `helpers.py`: function distances takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
   > learned how to calculate edit distance between two strings using __dynamic programming__.
   
