@@ -1,0 +1,32 @@
+<table>
+    <thead>
+        <tr>
+            <th></th> <!-- empty space for string1's column-->
+            <th>0</th> <!-- empty space for 0 index -->
+            {% for char in s2 %}
+            <th> {{ char }} </th> <!-- fill in first row's columns with each char from string2 -->
+            {% endfor %}
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- set width and length of table contents -->
+        {% set width = s2|length + 2 %}
+        {% set height = s1|length + 1 %}
+        <!-- iterate over matrix into table & include each char from string1 into first column-->
+        {% for i in range(height) %}
+            <tr>
+                {% for j in range(width) %}
+                    {% if i == 0 and j == 0 %}
+                        <th>0</th>
+                    {% elif i != 0 and j == 0 %}
+                        <th> {{ s1[i - 1] }} </th>
+                    {% else %}
+                        {% set tuple = matrix[i][j - 1] %}
+                        <th> {{ tuple[0] }} </th>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
