@@ -23,7 +23,12 @@
 - `matrix.html`: a page generating a visualization of the matrix returned by distances function (each cell contains a cost).
   > learned how to create a html form and use Jinja2 templating language.
   
-_Only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes using flask framework) and various html files were not implemented by myself)._
+  _disclaimer: only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes using flask framework) and various html files were not implemented by myself)._
+
+### What I learned
+> how a web application is structured using HTML, CSS, and a web server (Flask).
+
+> how a web server framework (i.e. Flask) handles requests and sends responses.
 
 ## Pset7: Finance
 > Solved Finance in July, 2018.
@@ -36,22 +41,22 @@ _Only the function for calculating the edit distance and displaying the matrix o
   - `quote`: enables user to look up a stock's current price by receiving both GET and POST requests. (GET request for displaying quote.html where user can input a stock's symbol and send a HTML form via POST request which then, renders quoted.html which displays the stock's current price.)
   - `buy`: enables user to simulate a purchase of stocks by receiving a POST request from buy.html and recording the purchase in the database.
   - `sell`: enables user to simulate a sale of stocks by receiving a POST request from buy.html and recording the sale in the database.
-  
-  -`history`: displays a table summarizing all of the user's transactions made.
-  -`add_cash`: a personal touch to the web appliction to enable the user to add more cash.
+  - `history`: displays a table summarizing all of the user's transactions made.
+  - `add_cash`: a personal touch to the web appliction to enable the user to add more cash.
   
 > learned 
 
-- `register.html`: an HTML to prompt user to submit a form for registration (inputs of id, password, and confirmation).
-- `index.html`: an HTML to display a table summarizing the user's portfolio of which stocks the user owns and the user's current balance account.
-- `quote.html`: an HTML to promt=
-- `quoted.html`:
-- `buy.html`:
-- `sell.html`:
-- `history.html`:
-- `addcash.html`:
+- HTML files
+  - `register.html`: an HTML form to prompt user to submit a form for registration (inputs of id, password, and confirmation).
+  - `index.html`: an HTML to display a table summarizing the user's portfolio of which stocks the user owns and the user's current balance account.
+  - `quote.html`: an HTML form to prompt user for a stock's symbol to look up the current price of a stock.
+  - `quoted.html`: an HTML to display the stock's current price.
+  - `buy.html`: an HTML form to prompt user to virtually buy stocks.
+  - `sell.html`:an HTML form to prompt user to virtually sell stocks.
+  - `history.html`: an HTML to display a table summarizing all of the user's transactions made.
+  - `addcash.html`: an HTML form to add more cash to the user's balance account.
   
-> learned
+> learned HTML syntax, jinja2 templating language, how to create an HTML form.
       
 ## Pset8: Mashup
 > Solved Mashup in July, 2018.
