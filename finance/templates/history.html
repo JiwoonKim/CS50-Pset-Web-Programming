@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table>
+        <!-- Display table header-->
+        <thead class="table-head">
+            <tr> <th>Symbol</th> <th>Shares</th> <th>Price</th> <th>Transacted</th> </tr>
+        </thead>
+        <!-- Display content of tables given by application.py-->
+        <tbody class="table-body">
+            {% for i in range(count) %}
+                <tr>
+                    <td> {{ symbols[i] }} </td>
+                    <td> {{ shares[i] }} </td>
+                    <td> {{ prices[i] }} </td>
+                    <td> {{ datetimes[i] }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <!-- Display table for user portfolio -->
+    <table>
+        <!-- Display table headers-->
+        <thead class="table-head">
+            <tr> <th>Symbol</th> <th>Name</th> <th>Shares</th> <th>Price</th> <th>TOTAL</th> </tr>
+        </thead>
+        <!-- Display portfolio (symbols (x2 times), shares, prices, total values) information -->
+        <tbody class="table-body">
+            {% for i in range(count) %}
+                <tr>
+                    <td> {{ symbols[i] }} </td>
+                    <td> {{ symbols[i] }} </td>
+                    <td> {{ shares[i] }} </td>
+                    <td> {{ prices[i] }} </td>
+                    <td> {{ totals[i] }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        <!-- Display user's cash balance and grand total value -->
+        <tfoot>
+            <tr> <td colspan="4">CASH</td> <td> {{ cash }} </td> </tr>
+            <tr> <td colspan="4"></td> <td> {{ grand_total }} </td> </tr>
+        </tfoot>
+    </table>
+{% endblock %}
