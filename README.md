@@ -12,7 +12,7 @@
 
 > A web application that depicts the costs of transforming one string into another by measuring the edit distance between two strings.
 
-<img src="screenshots/similarities/sim1.PNG" height="350"> <img src="screenshots/similarities/sim2.PNG" height="352">
+<img src="screenshots/similarities/sim1.PNG" height="350"> <img src="screenshots/similarities/sim2.PNG" height="351">
 
 - `helpers.py`: function distances takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
   > learned how to calculate __edit distance__ between two strings using __dynamic programming__.
@@ -34,22 +34,22 @@
 | /register | / |
 :-------------------------:|:-------------------------:
 <img src="screenshots/finance/register.PNG" width="350"> | <img src="screenshots/finance/index.PNG" width="350">
-| _prompts user for inputs for registration_  | _displays a table of user's portfolio and current cash balance_ |
+| _prompts user for inputs for registration_  | _displays user's portfolio and current cash balance_ |
 
 | /quote (GET request) | /quote (POST request) |
 :-------------------------:|:-------------------------:
-<img width="444" alt="quote" src="https://user-images.githubusercontent.com/29671309/50822154-5255ce80-1374-11e9-9bd5-167f48e2de84.PNG"> | <img width="443" alt="quoted" src="https://user-images.githubusercontent.com/29671309/50822160-5550bf00-1374-11e9-98fb-e198a2a3f941.PNG">
-| _prompts user for stock's symbol to search current price_  | _displays the current price of the stock_ |
+<img src="screenshots/finance/quote.PNG" width="350"> | <img src="screenshots/finance/quoted.PNG" width="350">
+| _prompts user for stock's symbol to search_  | _displays the current price of the stock_ |
 
 | /buy | /sell |
 :-------------------------:|:-------------------------:
-<img width="445" alt="buy" src="https://user-images.githubusercontent.com/29671309/50822292-b9738300-1374-11e9-9b00-b0903a57f6c7.PNG"> | <img width="445" alt="sell" src="https://user-images.githubusercontent.com/29671309/50822294-bd070a00-1374-11e9-8d1a-079068f3df10.PNG">
+<img src="screenshots/finance/buy.PNG" width="350"> | <img src="screenshots/finance/sell.PNG" width="350">
 | _virtually buy stocks_  | _virtually sell stocks user owns_ |
 
 | /history | /add_cash |
 :-------------------------:|:-------------------------:
-<img width="444" alt="history" src="https://user-images.githubusercontent.com/29671309/50822474-27b84580-1375-11e9-9855-5c304e7a8ce0.PNG"> | <img width="445" alt="add_cash" src="https://user-images.githubusercontent.com/29671309/50822469-25ee8200-1375-11e9-9e4a-1ca59db0acde.PNG">
-| _display a table of all the user's transactions_  | _add more cash to user's account_ |
+<img src="screenshots/finance/history.PNG" width="350"> | <img src="screenshots/finance/add_cash.PNG" width="350">
+| _display all of user's transactions_  | _add more cash to user's account_ |
 
 - `application.py`: a server program based on __Flask framework__, defines the following methods for routes.
   - `register`: enables user to register for an account by receiving a POST request from register.html and inserting the new user into the SQLite3 database.
