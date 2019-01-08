@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# score is used to check whether the distances function works by comparing two files before implementing the function in the web appliction
+
 import sys
 
 from argparse import ArgumentParser
