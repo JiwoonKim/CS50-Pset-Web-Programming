@@ -8,22 +8,18 @@
 
 
 ## Pset6: Similarities
-> Solved similarities(the more???? comfortable version) in June, 2018.
+> Solved similarities(the more comfortable version) in June, 2018.
 
-- hello: 
-  > first program in C, getting to know how to compile(using the make utility configured by CS50) and execute a .c file.
+> a web app that depicts the costs of transforming one string into another by measuring the edit distance between two strings.
+
+- helpers.py: distances function takes two strings as arguments and returns (via a matrix of costs) the edit distance between one and the other.
+  > 
   
-- mario: a program that prints out a full-pyramid of a specified height given by user.
-    - the less comfortable version: print out a half-pyramid.
-    
-  > learned how to use conditions and loops
-  > helped get familiar with using standard I/O (using CS50's training wheels: get_int()).
+- templates/index.html: 
+  > learned 
   
-- cash: a program that calculates the minimum number of coins required to give a user change.
-  > learned how to implement a greedy algorithm and how to handle the inherent imprecision of floating-point values.
-  
-- credit: a program that determines whether a provided credit card number is valid according to Luhn’s algorithm (If valid, print the which company it belongs to:American Express, MasterCard, or Visa).
-  > learned how to use various math functions and operators to interact with numeral values.
+- templates/matrix.html: page generates a visualization of the matrix returned by distances function (each cell contains a cost).
+  > learned how to use Jinja2 templating language.
 
 ## Pset7: Finance
 > Solved Finance in July, 2018.
