@@ -83,14 +83,52 @@
 
 > the __MVC (Model-View-Controller) paradigm__. Particularly the model and controller.
 
-> how a web server framework (i.e. Flask) handles __requests__ and sends __responses__.
+> how a __web server framework__ (i.e. Flask) handles __requests__ and sends __responses__.
 
 > how to manipulate data and databases using __SQL (Structured Query Language)__.
       
 ## Pset8: Mashup
 > Solved Mashup in July, 2018.
 
-> A web application where users can search for articles atop a map interface (Google Maps).
+> A web application where users can search for Google News articles atop a map interface from Google Maps.
 
-### What I learned from Pset7
-> how a web appl
+> Used open application programming interfaces (APIs) and Javascript Libraries.
+
+| / | / (clicked on marker) |
+:-------------------------:|:-------------------------:
+<img src="screenshots/mashup/m1.PNG" width="350"> | <img src="screenshots/mashup/m2.PNG" width="350">
+| _displays markers for cities on map_  | _displays popup of articles for clicked city_ |
+
+| /articles?geo=02138 | /search?q=New+Haven |
+:-------------------------:|:-------------------------:
+<img src="screenshots/mashup/m3.PNG" width="350"> | <img src="screenshots/mashup/m4.PNG" width="350">
+| _outputs JSON of articles for given postal cord_  | _outputs place data according to search query_ |
+
+- `scripts.js`: the front-end UI for the web application, defines the following functions for.
+  - `configure`: 
+  - `addMarker`: 
+  - `removeMarkers`:
+  
+  > learned 
+
+- `application.py`: the back-end server program based on __Flask framework__, defines the following methods for routes.
+  - `articles`: outputs a JSON array of objects for articles based on the geo location (GET parameter)
+  - `search`: outputs a JSON array of objects for places in the US matching the q (GET parameter for city, state, or postal code)
+
+    > learned how to query and search for data (in various scenarios) using SQL using OR, AND, and wildcard(%).
+    
+    > learned how to implement my own API for the web application: returning JSON for articles based on geo location.
+
+- `mashup.db`: database for web application.
+  - created a table for places.
+  
+  > learned how to create a table for a database and import a .txt file to the table.
+
+  _disclaimer: helpers.py, the index and update methods in application.py, index.html, style.css,  were implemented by CS50 and not myself)._
+
+### What I learned from Pset8
+> how to use an API (i.e. Google Maps Javascript API), RSS feeds from Google News
+
+> Ajax, JSON, jQuery, Twitter's Typehead.js library
+
+> HTTP requests and responses
