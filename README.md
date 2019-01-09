@@ -3,6 +3,9 @@
 > Solutions implemented for `CS50x` from 2016 to 2018.
 
 > For Problem Sets (Psets): `Pset 6 to Pset 8`.
+  - [Pset6: Similarities](#pset6-similarities)
+  - [Pset7: Finance](#pset7-finance)
+  - [Pset8: Mashup](#pset8-mashup)
 
 > For previous Psets: [Solutions for Pset 1 to Pset 5](https://github.com/JiwoonKim/CS50-Pset-General-Programming)
 
