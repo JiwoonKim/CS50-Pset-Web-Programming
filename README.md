@@ -10,7 +10,7 @@
 > For previous Psets: [Solutions for Pset 1 to Pset 5](https://github.com/JiwoonKim/CS50-Pset-General-Programming)
 
 
-## Pset6: Similarities
+## :bulb: Pset6: Similarities
 > Solved similarities(the more comfortable version) in June, 2018.
 
 > A web application that depicts the costs of transforming one string into another by measuring the edit distance between two strings.
@@ -26,10 +26,10 @@
   
   _disclaimer: only the function for calculating the edit distance and displaying the matrix of costs and the html form for two strings was implemented by myself (the web application's server (configuration for routes using flask framework) and various html files were implemented by CS50 not by myself)._
 
-### What I learned from Pset6
+### What I learned from Pset6 :seedling:
 > basic concepts of HTML, CSS, and a web server.
 
-## Pset7: Finance
+## :bulb: Pset7: Finance
 > Solved Finance in July, 2018.
 
 > A web app managing portfolios of stocks. Allows user to check real stocks' actual prices and portfolios' values, and let user simulate purchases and sales of stocks by querying IEX for stocks' prices. 
@@ -81,7 +81,7 @@
 
   _disclaimer: helpers.py, login and logout methods within application.py, login.html, apology.html were implemented by CS50 and not myself)._
 
-### What I learned from Pset7
+### What I learned from Pset7 :seedling:
 > how a web application is structured using HTML, CSS, and a web server (Flask).
 
 > the __MVC (Model-View-Controller) paradigm__. Particularly the model and controller.
@@ -90,7 +90,7 @@
 
 > how to manipulate data and databases using __SQL (Structured Query Language)__.
       
-## Pset8: Mashup
+## :bulb: Pset8: Mashup
 > Solved Mashup in July, 2018.
 
 > A web application where users can search for Google News articles atop a map interface from Google Maps.
@@ -129,7 +129,7 @@
 
   _disclaimer: helpers.py, the index and update methods in application.py, index.html, style.css,  were implemented by CS50 and not myself)._
 
-### What I learned from Pset8
+### What I learned from Pset8 :seedling:
 > how to use an API (i.e. Google Maps Javascript API), RSS feeds from Google News
 
 > Ajax, JSON, jQuery, Twitter's Typehead.js library
